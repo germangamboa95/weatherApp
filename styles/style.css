@@ -1,0 +1,48 @@
+body{
+  background-color: #1e88e5;
+  overflow-x: none;
+}
+.container{
+  margin: 5%;
+  font-family: monospace;
+}
+
+.title{
+  border-radius: 15px;
+  border: 1px black solid;
+  background-color: #226be2;
+  text-shadow:1px 1px 1px #000;
+  text-align: center;
+  font-size: 2em;
+}
+.card-container{
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+
+}
+.card{
+  border-radius: 15px 50px;
+  width:25em;
+  height: auto;
+
+  overflow-wrap: break-word;
+
+  background-color: #005bb2;
+  margin: .5em;
+  text-align: center;
+  border: 1px black solid;
+  padding: 0 1em 0 1em;
+}
+.card p{
+  font-size: 1.2em;
+  font-weight: bolder;
+
+}
+ img{
+  opacity: 0.90;
+}
